@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+    </style>
+</head>
+
+<body>
+    <!-- 學習資源:
+    https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
+     -->
+    <picture>
+        <source media="(min-width: 1200px)" srcset="./img/dog3_png.png" width="500px" >
+        <source media="(min-width: 900px)" srcset="./img/bear.jpg" width="500px">
+        <source media="(min-width: 370px)" srcset="./img/dog-bg.jpg 1x, ./img/pika.png 2x" width="500px">
+      
+        <img src="./img/dog2.jpg" width="500px">
+      </picture>
+</body>
+
+</html>
