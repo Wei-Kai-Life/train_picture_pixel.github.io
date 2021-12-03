@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-      
+      source{
+          width: 500px;
+      }
     </style>
 </head>
 
@@ -16,9 +18,9 @@
     https://developer.mozilla.org/en-US/docs/Web/HTML/Element/source
      -->
     <picture>
-        <source media="(min-width: 1200px)" srcset="./img/dog3_png.png" width="500px">
-        <source media="(min-width: 900px)" srcset="./img/bear.jpg" width="500px" type="image/webp">
-        <source media="(min-width: 370px)" srcset="./img/dog-bg.jpg 1x, ./img/pika.png 2x" width="500px" type="image/webp">
+        <source media="(min-width: 1200px)" srcset="./img/dog3_png.png" >
+        <source media="(min-width: 900px)" srcset="./img/bear.jpg"  type="image/webp">
+        <source media="(min-width: 370px)" srcset="./img/dog-bg.jpg 1x, ./img/pika.png 2x" type="image/webp">
       
         <img src="./img/dog2.jpg" alt="dog" width="500px"/>
       </picture>
